@@ -1,0 +1,342 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+    <title>Osamh's Resume</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Resume/CV／Portfolio Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.css' %}">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="{% static 'css/styles-14.css' %}">
+    <link id="theme-style" rel="stylesheet" href="{% static 'css/custom.css' %}">
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="top-bar container-fluid">
+            
+            <ul class="social list-inline">
+                <li><a href="https://www.linkedin.com/in/osamh-abdelhamed-153a45172/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/thelastarab"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            </ul><!--//social-->
+        </div><!--//top-bar-->
+
+        <div class="intro">
+            <div class="container text-center">
+                <img class="profile-image" src="{% static 'images/selfie.jpg' %}" alt="Selfie">
+                <h1 class="name">Osamh Abdelhamed</h1>
+                <div class="title">Software Engineer Developer</div>
+                <div class="profile">
+                    <p>Trying to generate and build on new knowledge. Love to face problems and having a sense of achievement of finding solutions.</p>
+                </div><!--//profile-->
+            </div><!--//container-->
+        </div><!--//intro-->
+
+        <div class="contact-info">
+            <div class="container text-center">
+                <ul class="list-inline">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:osamehabdelhamed@gmail.com">osamehabdelhamed@gmail.com</a></li>
+                    <li><i class="fa fa-phone"></i> <a href="tel: 504-435-7594">504-435-7594</a></li>
+                    
+                </ul>
+            </div><!--//container-->
+        </div><!--//contact-info-->
+
+        <div class="page-nav-space-holder hidden-xs">
+            <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+                <div class="container">
+                    <ul id="page-nav" class="nav page-nav list-inline">
+                        <li><a class="scrollto" href="#experiences-section">Experiences</a></li>
+                        <li><a class="scrollto" href="#education-section">Education</a></li>
+                        <li><a class="scrollto" href="#skills-section">Skills</a></li>
+                        
+                        <li><a class="scrollto" href="#portfolio-section">Portfolio</a></li>
+                        <li><a class="scrollto" href="#contact-section">Contact</a></li>
+                    </ul><!--//page-nav-->
+                </div>
+            </div><!--//page-nav-wrapper-->
+        </div>
+
+    </header><!--//header-->
+
+    <div class="wrapper container">
+        <section id="experiences-section" class="experiences-section section">
+            <h2 class="section-title">Work Experiences</h2>
+            <div class="timeline">
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place"><b>Highway Safety Research Group</b></h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Baton Rouge, Louisiana</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Student Developer</div>
+                        <div class="title">Intern</div>
+                        <div class="time">Decemeber, 2018- Present</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        
+                        <ul>
+                          <li>Write and develop programs usually in C# or Visual basic also working with SQL database</li>
+                          <li>Redevelop website pages and improve user interface using JavaScript, HTML/CSS and Django </li>
+                          <li>Perform basic IT duties </li>
+                          <li>Test and Debug Company Software</li>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="work-place">
+                        <p>
+                            <h3 class="place"><b>Jacobs IT</b></h3>
+                        </p>
+                        <div class="location">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>Baton Rouge, Louisiana</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">IT analyst</div>
+                        <div class="time">May, 2018 - December,2018</div>
+                    </div>
+                    <!--//job-meta-->
+                    <div class="job-desc">
+                        
+                            <ul>
+                                <li>Assistance with detecting and fixing hardware and software problems.</li>
+                                <li>Help with installation and configuration of operating systems and application programs. </li>
+                                <li>Assistance on how to use application programs and operating systems </li>
+                                
+                              </ul>
+                    </div>
+                    <!--//job-desc-->
+                </div><!--//item-->
+
+               
+
+            </div><!--//timeline-->
+
+        </section><!--//section-->
+
+        <section id="education-section" class="education-section section" >
+            <h2 class="section-title">Education</h2>
+            <div class="row"  align="center">
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h3 class="degree">B.S in Computer Scienece</h3>
+                        <div class="education-body"><br>
+                           Louisiana State University
+                        </div><!--//education-body-->
+                        <div class="time">2016 - 2020</div>
+                        <div class="desc">
+                            Currently attend LSU taking computer science and concentrating on Software Engineering.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+               
+                
+
+            </div><!--//row-->
+        </section><!--//section-->
+
+
+        <section id="skills-section" class="skills-section section text-center">
+            <h2 class="section-title">Professional Skills</h2>
+            <div class="top-skills">
+                <h3 class="subtitle">Top Skills</h3>
+                <div class="row">
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <h4 class="skill-name">Python &amp; Django</h4>
+                            <div class="level">Medium</div>
+                            <div class="desc">
+                                I've been working with django and python, developing technologies from standalone application. Using django to develop this website.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <h4 class="skill-name">C#, ASP.NET, Xamarin</h4>
+                            <div class="level">Advanced</div>
+                            <div class="desc">
+                                Have used these technologies and languages for awhile. My present work uses these technologies to develop sites and apps. I also have worked on a App this current year for my software engineering course.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <h4 class="skill-name">HTML5,CSS,Javascript,React-Native</h4>
+                            <div class="level">Medium</div>
+                            <div class="desc">
+                                Have used the languages and frameworks to develop mobile apps. I have also used these to fix or help design websites at HSRG. 
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//row-->
+            </div><!--//top-skills-->
+
+            <div class="other-skills">
+                <h3 class="subtitle">Other Skills</h3>
+                <div class="misc-skills">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C++</span>
+                  
+                    <br>
+                    
+                    <span class="skill-tag">Android</span>
+                    <span class="skill-tag">MYSQL</span>
+                    <span class="skill-tag">SQLite</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Java</span>
+                    
+                    <span class="skill-tag">React-Native</span>
+                    
+                </div>
+            </div><!--//other-skills-->
+
+        </section><!--//skills-section-->
+
+        
+
+
+        <section id="portfolio-section" class="portfolio-section section">
+            <h2 class="section-title">Projects</h2>
+            <ul id="filters" class="filters clearfix">
+                <li class="type active" data-filter="*">All</li>
+                <li class="type" data-filter=".backend">Back-end</li>
+                <li class="type" data-filter=".frontend">Front-end</li>
+            </ul><!--//filters-->
+
+            <div class="items-wrapper isotope row">
+                <div class="item backend frontend col-md-4 col-xs-8 ">
+                <div class="item-inner">
+                    <figure class="figure">
+                        <img class="img-responsive" src="{% static 'images/portfolio/project1.png' %}" alt="" />
+                    </figure>
+                    <div class="content text-left">
+                        <h3 class="sub-title"><a href="https://github.com/xtraaan/imPACt">imPACt</a></h3>
+                        <div class="meta"><u> Technology: Xamarin, C#, SQLite</u><br><br>
+                            imPACt is basically a tinder for professionals 
+                           <br><br> Helping students and professors match with similiar interests.
+                           <br>· Students and Mentors can hold group chats.
+                           <br>· Mentors can hold events for their mentees for interests that they are interested in.
+
+                                </div>
+                     
+                       
+                        <div class="action"><a href="https://github.com/xtraaan/imPACt">View on Github</a></div>
+                    </div><!--//content-->
+                    <a class="link-mask" href="https://github.com/xtraaan/imPACt"></a>
+                </div><!--//item-inner-->
+            </div><!--//item-->
+
+            <div class="item backend col-md-4 col-xs-8 ">
+                <div class="item-inner">
+                    <figure class="figure">
+                        <img class="img-responsive" style="width:500px;height:185px;" src="{% static 'images/portfolio/p2.jpg' %}" alt="" />
+                    </figure>
+                    <div class="content text-left">
+                        <h3 class="sub-title"><a href="https://github.com/ccalde4/AlongtheWay">AlongTheWay</a></h3>
+                        <div class="meta"><u>Technology used :React Native, JavaScript, HTML/CSS, Android Studio, Firebase</u><br><br>
+                            App that allows you to create detours and ease your route
+                            <br>· Filters out popular areas to find unique local areas along the way
+                            <br>· Provided alot of backend of creating the route and finding unique places
+                            <br>· Provides multiple reviews from Yelp, Google, and our own reviews for locations
+                            </div>
+                        
+                        
+                        <div class="action"><a href="https://github.com/ccalde4/AlongtheWay">View on Github</a></div>
+                    </div><!--//content-->
+                    <a class="link-mask" href="https://github.com/ccalde4/AlongtheWay"></a>
+                </div><!--//item-inner-->
+            </div><!--//item-->
+
+            
+           
+           <!--//item-->
+            <div class="item frontend col-md-4 col-xs-8 ">
+                <div class="item-inner">
+                    <figure class="figure">
+                        <img class="img-responsive" style="width:500px;height:185px;" src="{% static 'images/portfolio/portfolio-6.jpg' %}" alt="" />
+                    </figure>
+                    <div class="content text-left">
+                        <h3 class="sub-title"><a href="#">Personal portfolio</a></h3>
+                        <div class="meta"><u> Technologies: Python,Django, HTML,CSS,Javascript</u><br><br>
+                            ·This is a project for my personal portfolio using Django
+                            <br>·This is my first beginning-to-end project on Django
+                            <br>·Used various references of tutorials to help build this porfolio.</div>
+                            <br><br>
+                        <div class="meta"></div>
+                        <div class="action"><a href="https://github.com/thelastarab/Portfolio">View on Github</a></div>
+                    </div><!--//content-->
+                    <a class="link-mask" href="#"></a>
+                </div><!--//item-inner-->
+            </div><!--//item-->
+               
+               
+            </div><!--//item-wrapper-->
+
+        </section><!--//section-->
+
+        <section id="contact-section" class="contact-section section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="intro">
+                <img class="profile-image" src="{% static 'images/knowledge.jpg' %}" alt="brain">
+                <div class="dialog">
+                    <p>I'm currently working part-time as HSRG but I'm always open to new opportunities that let me help as much as I can on other projects.</p>
+                    <p><strong>I can help with the following:</strong></p>
+                    <ul class="list-unstyled service-list">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Back-end development with Django/Python</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Front-end development with HTML5 , CSS , JS,React-Native </li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Android and IOS Application development</li>
+                        
+                        
+                    </ul>
+                    <p>You can contact me at <a href="mailto:osamehabdelhamed@gmail.com">osamehabdelhamed@gmail.com</a> or call me at <a href="tel:5044357594">504-435-7594</a></p>
+                    <ul class="social list-inline">
+                            <li><a href="https://www.linkedin.com/in/osamh-abdelhamed-153a45172/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com/thelastarab"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                    </ul><!--//social-->
+                </div><!--//diaplog-->
+            </div><!--//intro-->
+
+        </section><!--//section-->
+
+    </div><!--//wrapper-->
+
+    <footer class="footer text-center">
+        <div class="container">
+            <small class="copyright">Copyright @ <a href="#">Osamh Abdelhamed </a></small>
+        </div><!--//container-->
+    </footer>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="{% static 'plugins/jquery-1.12.4.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/back-to-top.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/jquery-scrollTo/jquery.scrollTo.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/easy-pie-chart/src/easypiechart.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/easy-pie-chart/src/jquery.plugin.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/easy-pie-chart/src/renderer/canvas.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/imagesloaded.pkgd.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'plugins/isotope.pkgd.min.js' %}"></script>
+
+    <!-- custom js -->
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
